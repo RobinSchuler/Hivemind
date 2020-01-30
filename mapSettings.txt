@@ -1,0 +1,2 @@
+winresources 100;
+losetimer 400;

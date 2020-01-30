@@ -1,0 +1,143 @@
+
++ tilesList [ <holz> <steine> <erde> ];
+
+<holz> [ folder
+	holz_planke
+	holz_broken
+	holz_plain
+	<border>
+];
+
+<border> [ folder
+	left_border
+	right_border
+	top_border
+	bottom_border
+	holz_diagonal1
+	holz_diagonal2
+	holz_diagonal3
+	holz_diagonal4
+];
+
+<steine> [ folder
+	steine_klein
+	steine_links_oben
+	steine_diagonal
+	steine_diagonal2
+];
+
+<erde> [ folder
+	gras
+	büschel_rechts_unten
+	büschel_links_unten
+	büschel_links_oben
+	büschel_rechts
+];
+
+left_border [ textured ];
+left_border_Texture res/textures/border_0;
+left_border_Background true;
+left_border_passability walkable;
+
+right_border [ textured ];
+right_border_Texture res/textures/border_1;
+right_border_Background true;
+right_border_passability walkable;
+
+top_border [ textured ];
+top_border_Texture res/textures/border_2;
+right_border_Background true;
+top_border_passability walkable;
+
+bottom_border [ textured ];
+bottom_border_Texture res/textures/border_3;
+bottom_border_Background true;
+bottom_border_passability walkable;
+
+gras [ textured ];
+gras_Texture res/textures/gras;
+gras_Background true;
+gras_passability walkable;
+gras_Rgba [ 59 133 96 255 ];
+
+büschel_rechts [ textured ];
+büschel_rechts_Texture res/textures/grasbueschel_0;
+büschel_rechts_Background true;
+büschel_rechts_passability walkable;
+
+büschel_links_unten [ textured ];
+büschel_links_unten_Texture res/textures/grasbueschel_1;
+right_border_Background true;
+büschel_links_unten_passability walkable;
+
+büschel_rechts_unten [ textured ];
+büschel_rechts_unten_Texture res/textures/grasbueschel_2;
+büschel_rechts_unten_Background true;
+büschel_rechts_unten_passability walkable;
+
+büschel_links_oben [ textured ];
+büschel_links_oben_Texture res/textures/grasbueschel_3;
+büschel_links_oben_Background true;
+büschel_links_oben_passability walkable;
+
+steine_klein [ textured ];
+steine_klein_Texture res/textures/steine_3;
+steine_klein_Background true;
+steine_klein_passability walkable;
+
+steine_links_oben [ textured ];
+steine_links_oben_Texture res/textures/steine_1;
+steine_links_oben_Background true;
+steine_links_oben_passability walkable;
+
+steine_diagonal [ textured ];
+steine_diagonal_Texture res/textures/steine_2;
+right_border_Background true;
+steine_diagonal_passability walkable;
+
+steine_diagonal2 [ textured ];
+steine_diagonal2_Texture res/textures/steine_4;
+steine_diagonal2_Background true;
+steine_diagonal2_passability walkable;
+
+holz_diagonal1 [ textured ];
+holz_diagonal1_Texture res/textures/holz_diag_1;
+holz_diagonal1_Background true;
+holz_diagonal1_passability walkable;
+holz_diagonal1_Rgba [ 180 127 47 255 ];
+
+holz_diagonal3 [ textured ];
+holz_diagonal3_Texture res/textures/holz_diag_3;
+holz_diagonal3_Background true;
+holz_diagonal3_passability walkable;
+holz_diagonal3_Rgba [ 180 127 47 255 ];
+
+holz_diagonal4 [ textured ];
+holz_diagonal4_Texture res/textures/holz_diag_4;
+holz_diagonal4_Background true;
+holz_diagonal4_passability walkable;
+holz_diagonal4_Rgba [ 180 127 47 255 ];
+
+holz_diagonal2 [ textured ];
+holz_diagonal2_Texture res/textures/holz_diag_2;
+holz_diagonal2_Background true;
+holz_diagonal2_passability walkable;
+holz_diagonal2_Rgba [ 180 127 47 255 ];
+
+holz_planke [ textured ];
+holz_planke_Texture res/textures/holz_1;
+holz_planke_Background true;
+holz_planke_passability walkable;
+holz_planke_Rgba [ 180 127 47 255 ];
+
+holz_broken [ textured ];
+holz_broken_Texture res/textures/holz_2;
+holz_broken_Background true;
+holz_broken_passability walkable;
+holz_broken_Rgba [ 180 127 47 255 ];
+
+holz_plain [ textured ];
+holz_plain_Texture res/textures/holz_3;
+holz_plain_Background true;
+holz_plain_passability walkable;
+holz_plain_Rgba [ 180 127 47 255 ];

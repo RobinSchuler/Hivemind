@@ -1,0 +1,39 @@
++ tilesList <creatures>;
+
+<creatures> [ folder 
+	lurch
+	claw
+	kog
+	glider
+	eiscle
+	scion
+	food
+];
+
+lurch [ textured ];
+lurch_Texture res/textures/gegner_lurch-s;
+lurch_Background false;
+
+claw [ textured ];
+claw_Texture res/textures/gegner_claw-s;
+claw_Background false;
+
+kog [ textured ];
+kog_Texture res/textures/gegner_kog-s;
+kog_Background false;
+
+scion [ textured ];
+scion_Texture res/textures/gegner_scion-s;
+scion_Background false;
+
+glider [ textured ];
+glider_Texture res/textures/gegner_glider-s;
+glider_Background false;
+
+eiscle [ textured ];
+eiscle_Texture res/textures/gegner_ice-s;
+eiscle_Background false;
+
+food [ textured ];
+food_Texture res/textures/food;
+food_Background false;

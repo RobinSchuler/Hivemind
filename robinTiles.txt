@@ -1,0 +1,1314 @@
++ tilesList [ <water> <desert> <cave> stone ];
+
++ <erde> [
+ bush
+ growTree
+ blatt1
+ blatt2
+ blatt3
+ sapling
+ <treeParts> 
+ ];
+
+
+
+<treeParts> [ folder
+   	baum1	
+	baum2
+	baum3
+	baum4
+	baum5
+	baum6
+	baum7
+	baum8
+	baum9
+	baum10
+	baum11
+	baum12
+	baum13
+	baum14 
+          ];
+
+<water> [ folder
+        water
+        watercorneroli
+	watercornerori
+        watercorneruli
+	watercorneruri
+	watercorneroln
+	watercornerorn
+	watercorneruln
+	watercornerurn
+        ];
+
+<desert> [ folder
+        kaktus
+	palm
+	desert
+	<palmParts>
+        <kaktusParts>
+   	];
+
+<palmParts> [ folder
+palm1
+palm2
+palm3
+palm4
+palm5
+palm6
+
+];
+
+<kaktusParts> [ folder 
+	kaktus1
+	kaktus2
+	kaktus3
+];
+
+
+<cave> [ folder
+	<caveRightSide>
+        <caveLeftSide>
+	<caveBottomSide>
+        <caveTopSide> 
+        pillar
+        pillar1
+        pillar2
+        blackField
+	];
+
+<caveTopSide> [ folder
+wallogla
+walloglb
+wallolgrrkl
+wallolklrgr
+walloleck
+walloreck
+<caveWallPartsTopSide>
+
+]
+;
+
+<caveWallPartsTopSide> [ folder
+wallogla1
+wallogla2
+wallogla3
+wallogla4
+wallogla5
+wallogla6
+walloglb1
+walloglb2
+walloglb3
+walloglb4
+walloglb5
+walloglb6
+wallolgrrkl1
+wallolgrrkl2
+wallolgrrkl3
+wallolgrrkl4
+wallolgrrkl5
+wallolgrrkl6
+wallolklrgr1
+wallolklrgr2
+wallolklrgr3
+wallolklrgr4
+wallolklrgr5
+wallolklrgr6
+walloleck1
+walloleck2
+walloleck3
+walloleck4
+walloreck5
+walloreck1
+walloreck2
+walloreck3
+walloreck4
+walloreck5
+
+];
+
+<caveRightSide> [ folder
+wallrgl
+wallrkl
+wallrgr 
+<caveWallPartsRightSide>
+];
+	
+ <caveLeftSide> [ folder
+walllgl
+walllkl
+walllgr
+pillarLeft
+<caveWallPartsLeftSide>
+];
+
+
+<caveBottomSide> [ folder
+wallugla
+walluglb
+wallugra
+wallugrb
+wallukla
+walluklb
+walluklc
+wallukld
+<caveWallPartsBottomSide>
+
+];
+
+<caveWallPartsBottomSide> [ folder
+wallugla1
+wallugla2
+wallugla3
+wallugla4
+wallugla5
+walluglb1
+walluglb2
+walluglb3
+walluglb4
+walluglb5
+wallugra1
+wallugra2
+wallugra3
+wallugra4
+wallugra5
+wallugrb1
+wallugrb2
+wallugrb3
+wallugrb4
+wallugrb5
+wallukla1
+wallukla2
+wallukla3
+wallukla4
+wallukla5
+walluklb1
+walluklb2
+walluklb3
+walluklb4
+walluklb5
+walluklc1
+walluklc2
+walluklc3
+wallukld1
+wallukld2
+wallukld3
+ ]
+;
+
+<caveWallPartsRightSide> [ folder
+wallrgr1
+wallrgr2
+wallrgr3
+wallrgr4
+wallrgr5
+wallrkl1
+wallrkl2
+wallrkl3
+wallrkl4
+wallrkl5
+wallrgl1
+wallrgl2
+wallrgl3
+wallrgl4
+wallrgl5
+wallrgl6
+
+];
+
+<caveWallPartsLeftSide> [ folder
+walllgr1
+walllgr2
+walllgr3
+walllgr4
+walllgr5
+walllkl1
+walllkl2
+walllkl3
+walllkl4
+walllkl5
+walllgl1
+walllgl2
+walllgl3
+walllgl4
+walllgl5
+walllgl6
+pillarLeft1
+pillarLeft2
+
+];
+
+growTree [ multiple 
+        baum1	
+	baum2
+	baum3
+	baum4
+	baum5
+	baum6
+	baum7
+	baum8
+	baum9
+	baum10
+	null
+	baum11
+	baum12
+	baum13
+	baum14 
+ ];
+growTree_Width 5;
+
+palm [ multiple
+palm1 palm2 palm3
+palm4 palm5 palm6
+];
+palm_Width 3;
+
+kaktus [ multiple
+null kaktus1
+kaktus2 kaktus3
+];
+kaktus_Width 2;
+
+pillar [ multiple
+pillar1
+pillar2
+];
+pillar_Width 1;
+
+pillarLeft [ multiple
+pillarLeft1
+pillarLeft2
+];
+pillarLeft_Width 1;
+
+wallogla [ multiple
+wallogla1 wallogla2 wallogla3
+wallogla4 wallogla5 wallogla6
+];
+wallogla_Width 3;
+
+walloglb [ multiple
+walloglb1 walloglb2 walloglb3
+walloglb4 walloglb5 walloglb6
+];
+walloglb_Width 3;
+
+wallolgrrkl [ multiple
+wallolgrrkl1 wallolgrrkl2 wallolgrrkl3
+wallolgrrkl4 wallolgrrkl5 wallolgrrkl6
+];
+wallolgrrkl_Width 3;
+
+wallolklrgr [ multiple
+wallolklrgr1 wallolklrgr2 wallolklrgr3
+wallolklrgr4 wallolklrgr5 wallolklrgr6
+];
+wallolklrgr_Width 3;
+
+walloleck [ multiple
+null walloleck1
+walloleck2 walloleck3
+walloleck4 walloleck5
+];
+walloleck_Width 2;
+
+walloreck [ multiple
+walloreck1 null
+walloreck2 walloreck3
+walloreck4 walloreck5
+];
+walloreck_Width 2;
+
+wallugla [ multiple
+wallugla1 null wallugla2
+wallugla3 wallugla4 wallugla5
+];
+wallugla_Width 3;
+
+walluglb [ multiple
+walluglb1 null wallugrb2
+walluglb3 walluglb4 walluglb5
+];
+walluglb_Width 3;
+
+wallugra [ multiple
+wallugra1 wallugra2 null
+wallugra3 wallugra4 wallugra5
+];
+wallugra_Width 3;
+
+wallugrb [ multiple
+null wallugrb1 wallugrb2
+wallugrb3 wallugrb4 wallugrb5
+];
+wallugrb_Width 3;
+
+wallukla [ multiple
+wallukla1 wallukla2 wallukla3
+wallukla4 wallukla5 null
+];
+wallukla_Width 3;
+
+walluklb [ multiple
+walluklb1 walluklb2 walluklb3
+null walluklb4 walluklb5
+];
+walluklb_Width 3;
+
+walluklc [ multiple
+walluklc1 walluklc2 wallukla3
+walluklc3 null null
+
+];
+walluklc_Width 3;
+
+wallukld [ multiple
+walluklb1  wallukld1 wallukld2
+null null wallukld3
+];
+wallukld_Width 3;
+
+wallrgr [ multiple 
+null wallrgr5
+wallrgr4 wallrgr3
+wallrgr2 wallrgr1
+ ];
+wallrgr_Width 2;
+
+walllgr [ multiple 
+walllgr1 null
+walllgr2 walllgr3
+walllgr4 walllgr5
+ ];
+walllgr_Width 2;
+
+wallrkl [ multiple 
+wallrkl1 null
+wallrkl2 wallrkl3
+wallrkl4 wallrkl5
+ ];
+wallrkl_Width 2;
+
+walllkl [ multiple 
+null walllkl1
+walllkl2 walllkl3
+walllkl4 walllkl5
+ ];
+walllkl_Width 2;
+
+wallrgl [ multiple 
+wallrgl1 wallrgl2
+wallrgl3 wallrgl4
+wallrgl5 wallrgl6
+ ];
+wallrgl_Width 2;
+
+walllgl [ multiple 
+walllgl1 walllgl2
+walllgl3 walllgl4
+walllgl5 walllgl6
+ ];
+walllgl_Width 2;
+
+
+wallrgr1 [ textured ];
+wallrgr1_Texture res/textures/wall_rechts_groesser1;
+wallrgr1_Background true;
+wallrgr1_passability unpassable;
+wallrgr1_Rgba [ 98 96 98 255 ];
+
+wallrgr2 [ textured ];
+wallrgr2_Texture res/textures/wall_rechts_groesser2;
+wallrgr2_Background true;
+wallrgr2_passability unpassable;
+wallrgr2_Rgba [ 98 96 98 255 ];
+
+wallrgr3 [ textured ];
+wallrgr3_Texture res/textures/wall_rechts_groesser3;
+wallrgr3_Background true;
+wallrgr3_passability unpassable;
+wallrgr3_Rgba [ 98 96 98 255 ];
+
+wallrgr4 [ textured ];
+wallrgr4_Texture res/textures/wall_rechts_groesser4;
+wallrgr4_Background true;
+wallrgr4_passability unpassable;
+wallrgr4_Rgba [ 98 96 98 255 ];
+
+wallrgr5 [ textured ];
+wallrgr5_Texture res/textures/wall_rechts_groesser5;
+wallrgr5_Background true;
+wallrgr5_passability unpassable;
+wallrgr5_Rgba [ 98 96 98 255 ];
+
+walllgr1 [ textured ];
+walllgr1_Texture res/textures/wall_links_groesser1;
+walllgr1_Background true;
+walllgr1_passability unpassable;
+walllgr1_Rgba [ 98 96 98 255 ];
+
+walllgr2 [ textured ];
+walllgr2_Texture res/textures/wall_links_groesser2;
+walllgr2_Background true;
+walllgr2_passability unpassable;
+walllgr2_Rgba [ 98 96 98 255 ];
+
+walllgr3 [ textured ];
+walllgr3_Texture res/textures/wall_links_groesser3;
+walllgr3_Background true;
+walllgr3_passability unpassable;
+walllgr3_Rgba [ 98 96 98 255 ];
+
+walllgr4 [ textured ];
+walllgr4_Texture res/textures/wall_links_groesser4;
+walllgr4_Background true;
+walllgr4_passability unpassable;
+walllgr4_Rgba [ 98 96 98 255 ];
+
+walllgr5 [ textured ];
+walllgr5_Texture res/textures/wall_links_groesser5;
+walllgr5_Background true;
+walllgr5_passability unpassable;
+walllgr5_Rgba [ 98 96 98 255 ];
+
+wallrkl1 [ textured ];
+wallrkl1_Texture res/textures/wall_rechts_kleiner1;
+wallrkl1_Background true;
+wallrkl1_passability unpassable;
+wallrkl1_Rgba [ 98 96 98 255 ];
+
+wallrkl2 [ textured ];
+wallrkl2_Texture res/textures/wall_rechts_kleiner2;
+wallrkl2_Background true;
+wallrkl2_passability unpassable;
+wallrkl2_Rgba [ 98 96 98 255 ];
+
+wallrkl3 [ textured ];
+wallrkl3_Texture res/textures/wall_rechts_kleiner3;
+wallrkl3_Background true;
+wallrkl3_passability unpassable;
+wallrkl3_Rgba [ 98 96 98 255 ];
+
+wallrkl4 [ textured ];
+wallrkl4_Texture res/textures/wall_rechts_kleiner4;
+wallrkl4_Background true;
+wallrkl4_passability unpassable;
+wallrkl4_Rgba [ 98 96 98 255 ];
+
+wallrkl5 [ textured ];
+wallrkl5_Texture res/textures/wall_rechts_kleiner5;
+wallrkl5_Background true;
+wallrkl5_passability unpassable;
+wallrkl5_Rgba [ 98 96 98 255 ];
+
+
+walllkl1 [ textured ];
+walllkl1_Texture res/textures/wall_links_kleiner1;
+walllkl1_Background true;
+walllkl1_passability unpassable;
+walllkl1_Rgba [ 98 96 98 255 ];
+
+walllkl2 [ textured ];
+walllkl2_Texture res/textures/wall_links_kleiner2;
+walllkl2_Background true;
+walllkl2_passability unpassable;
+walllkl2_Rgba [ 98 96 98 255 ];
+
+walllkl3 [ textured ];
+walllkl3_Texture res/textures/wall_links_kleiner3;
+walllkl3_Background true;
+walllkl3_passability unpassable;
+walllkl3_Rgba [ 98 96 98 255 ];
+
+walllkl4 [ textured ];
+walllkl4_Texture res/textures/wall_links_kleiner4;
+walllkl4_Background true;
+walllkl4_passability unpassable;
+walllkl4_Rgba [ 98 96 98 255 ];
+
+walllkl5 [ textured ];
+walllkl5_Texture res/textures/wall_links_kleiner5;
+walllkl5_Background true;
+walllkl5_passability unpassable;
+walllkl5_Rgba [ 98 96 98 255 ];
+
+
+wallrgl1 [ textured ];
+wallrgl1_Texture res/textures/wall_rechts_gleich1;
+wallrgl1_Background true;
+wallrgl1_passability unpassable;
+wallrgl1_Rgba [ 98 96 98 255 ];
+
+wallrgl2 [ textured ];
+wallrgl2_Texture res/textures/wall_rechts_gleich2;
+wallrgl2_Background true;
+wallrgl2_passability unpassable;
+wallrgl2_Rgba [ 98 96 98 255 ];
+
+wallrgl3 [ textured ];
+wallrgl3_Texture res/textures/wall_rechts_gleich3;
+wallrgl3_Background true;
+wallrgl3_passability unpassable;
+wallrgl3_Rgba [ 98 96 98 255 ];
+
+wallrgl4 [ textured ];
+wallrgl4_Texture res/textures/wall_rechts_gleich4;
+wallrgl4_Background true;
+wallrgl4_passability unpassable;
+wallrgl4_Rgba [ 98 96 98 255 ];
+
+wallrgl5 [ textured ];
+wallrgl5_Texture res/textures/wall_rechts_gleich5;
+wallrgl5_Background true;
+wallrgl5_passability unpassable;
+wallrgl5_Rgba [ 98 96 98 255 ];
+
+wallrgl6 [ textured ];
+wallrgl6_Texture res/textures/wall_rechts_gleich6;
+wallrgl6_Background true;
+wallrgl6_passability unpassable;
+wallrgl6_Rgba [ 98 96 98 255 ];
+
+
+walllgl1 [ textured ];
+walllgl1_Texture res/textures/wall_links_gleich1;
+walllgl1_Background true;
+walllgl1_passability unpassable;
+walllgl1_Rgba [ 98 96 98 255 ];
+
+walllgl2 [ textured ];
+walllgl2_Texture res/textures/wall_links_gleich2;
+walllgl2_Background true;
+walllgl2_passability unpassable;
+walllgl2_Rgba [ 98 96 98 255 ];
+
+walllgl3 [ textured ];
+walllgl3_Texture res/textures/wall_links_gleich3;
+walllgl3_Background true;
+walllgl3_passability unpassable;
+walllgl3_Rgba [ 98 96 98 255 ];
+
+walllgl4 [ textured ];
+walllgl4_Texture res/textures/wall_links_gleich4;
+walllgl4_Background true;
+walllgl4_passability unpassable;
+walllgl4_Rgba [ 98 96 98 255 ];
+
+walllgl5 [ textured ];
+walllgl5_Texture res/textures/wall_links_gleich5;
+walllgl5_Background true;
+walllgl5_passability unpassable;
+walllgl5_Rgba [ 98 96 98 255 ];
+
+walllgl6 [ textured ];
+walllgl6_Texture res/textures/wall_links_gleich6;
+walllgl6_Background true;
+walllgl6_passability unpassable;
+walllgl6_Rgba [ 98 96 98 255 ];
+
+bush [ textured ];
+bush_Texture res/textures/bush;
+bush_Background true;
+bush_passability walkable;
+bush_Rgba [ 143 3 88 255 ];
+
+stone [ textured ];
+stone_Texture res/textures/stone;
+stone_Background true;
+stone_passability walkable;
+stone_Rgba [ 131 131 131 255 ];
+
+kaktus1 [ textured ];
+kaktus1_Texture res/textures/kaktus1;
+kaktus1_Background true;
+kaktus1_passability jumpable;
+kaktus1_Rgba [ 93 121 33 255 ];
+
+kaktus2 [ textured ];
+kaktus2_Texture res/textures/kaktus2;
+kaktus2_Background true;
+kaktus2_passability jumpable;
+kaktus2_Rgba [ 93 121 33 255 ];
+
+kaktus3 [ textured ];
+kaktus3_Texture res/textures/kaktus3;
+kaktus3_Background true;
+kaktus3_passability jumpable;
+kaktus3_Rgba [ 93 121 33 255 ];
+
+palm1 [ textured ];
+palm1_Texture res/textures/palm1;
+palm1_Background true;
+palm1_passability walkable;
+
+palm2 [ textured ];
+palm2_Texture res/textures/palm2;
+palm2_Background true;
+palm2_passability jumpable;
+
+palm3 [ textured ];
+palm3_Texture res/textures/palm3;
+palm3_Background true;
+palm3_passability jumpable;
+
+palm4 [ textured ];
+palm4_Texture res/textures/palm4;
+palm4_Background true;
+palm4_passability walkable;
+
+palm5 [ textured ];
+palm5_Texture res/textures/palm5;
+palm5_Background true;
+palm5_passability jumpable;
+
+palm6 [ textured ];
+palm6_Texture res/textures/palm6;
+palm6_Background true;
+palm6_passability jumpable;
+
+desert [ textured ];
+desert_Texture res/textures/wueste;
+desert_Background true;
+desert_passability walkable;
+desert_Rgba [ 252 234 141 255];
+
+water [ textured ];
+water_Texture res/textures/wasser;
+water_Background true;
+water_passability flyable;
+water_Rgba [ 78 92 118 255 ];
+
+watercorneroli [ textured ];
+watercorneroli_Texture res/textures/wasser_oben_links_invertiert;
+watercorneroli_Background true;
+watercorneroli_passability flyable;
+watercorneroli_Rgba [ 78 92 118 255 ];
+
+watercornerori [ textured ];
+watercornerori_Texture res/textures/wasser_oben_rechts_invertiert;
+watercornerori_Background true;
+watercornerori_passability flyable;
+watercornerori_Rgba [ 78 92 118 255 ];
+
+watercorneruli [ textured ];
+watercorneruli_Texture res/textures/wasser_unten_links_invertiert;
+watercorneruli_Background true;
+watercorneruli_passability flyable;
+watercorneruli_Rgba [ 78 92 118 255 ];
+
+watercorneruri [ textured ];
+watercorneruri_Texture res/textures/wasser_unten_rechts_invertiert;
+watercorneruri_Background true;
+watercorneruri_passability flyable;
+watercorneruri_Rgba [ 78 92 118 255 ];
+
+watercorneroln [ textured ];
+watercorneroln_Texture res/textures/wasser_oben_links_normal;
+watercorneroln_Background true;
+watercorneroln_passability flyable;
+watercorneroln_Rgba [ 78 92 118 255 ];
+
+watercornerorn [ textured ];
+watercornerorn_Texture res/textures/wasser_oben_rechts_normal;
+watercornerorn_Background true;
+watercornerorn_passability flyable;
+watercornerorn_Rgba [ 78 92 118 255 ];
+
+watercorneruln [ textured ];
+watercorneruln_Texture res/textures/wasser_unten_links_normal;
+watercorneruln_Background true;
+watercorneruln_passability flyable;
+watercorneruln_Rgba [ 78 92 118 255 ];
+
+watercornerurn [ textured ];
+watercornerurn_Texture res/textures/wasser_unten_rechts_normal;
+watercornerurn_Background true;
+watercornerurn_passability flyable;
+watercornerurn_Rgba [ 78 92 118 255 ];
+
+walllgla [ textured ];
+walllgla_Texture res/textures/wall_links_gleich;
+walllgla_Background true;
+walllgla_passability unpassable;
+walllgla_Rgba [ 98 96 98 255 ];
+
+wallrgla [ textured ];
+wallrgla_Texture res/textures/wall_rechts_gleich;
+wallrgla_Background true;
+wallrgla_passability unpassable;
+wallrgla_Rgba [ 98 96 98 255 ];
+
+walllkla [ textured ];
+walllkla_Texture res/textures/wall_links_kleiner;
+walllkla_Background true;
+walllkla_passability unpassable;
+walllkla_Rgba [ 98 96 98 255 ];
+
+wallrkla [ textured ];
+wallrkla_Texture res/textures/wall_rechts_kleiner;
+wallrkla_Background true;
+wallrkla_passability unpassable;
+wallrkla_Rgba [ 98 96 98 255 ];
+
+walllgra [ textured ];
+walllgra_Texture res/textures/wall_links_groesser;
+walllgra_Background true;
+walllgra_passability unpassable;
+walllgra_Rgba [ 98 96 98 255 ];
+
+wallrgra [ textured ];
+wallrgra_Texture res/textures/wall_rechts_groesser;
+wallrgra_Background true;
+wallrgra_passability unpassable;
+wallrgra_Rgba [ 98 96 98 255 ];
+
+
+baum1 [ textured ];
+baum1_Texture res/textures/baum1;
+baum1_Background true;
+baum1_passability walkable;
+
+baum2 [ textured ];
+baum2_Texture res/textures/baum2;
+baum2_Background true;
+baum2_passability walkable;
+
+baum3 [ textured ];
+baum3_Texture res/textures/baum3;
+baum3_Background true;
+baum3_passability jumpable;
+baum3_Rgba [ 143 3 88 255 ];
+
+baum4 [ textured ];
+baum4_Texture res/textures/baum4;
+baum4_Background true;
+baum4_passability jumpable;
+baum4_Rgba [ 143 3 88 255 ];
+
+baum5 [ textured ];
+baum5_Texture res/textures/baum5;
+baum5_Background true;
+baum5_passability jumpable;
+baum5_Rgba [ 143 3 88 255 ];
+
+baum6 [ textured ];
+baum6_Texture res/textures/baum6;
+baum6_Background true;
+baum6_passability walkable;
+
+baum7 [ textured ];
+baum7_Texture res/textures/baum7;
+baum7_Background true;
+baum7_passability walkable;
+
+baum8 [ textured ];
+baum8_Texture res/textures/baum8;
+baum8_Background true;
+baum8_passability jumpable;
+baum8_Rgba [ 143 3 88 255 ];
+
+baum9 [ textured ];
+baum9_Texture res/textures/baum9;
+baum9_Background true;
+baum9_passability jumpable;
+baum9_Rgba [ 143 3 88 255 ];
+
+baum10 [ textured ];
+baum10_Texture res/textures/baum10;
+baum10_Background true;
+baum10_passability jumpable;
+baum10_Rgba [ 143 3 88 255 ];
+
+baum11 [ textured ];
+baum11_Texture res/textures/baum11;
+baum11_Background true;
+baum11_passability walkable;
+
+baum12 [ textured ];
+baum12_Texture res/textures/baum12;
+baum12_Background true;
+baum12_passability jumpable;
+baum12_Rgba [ 143 3 88 255 ];
+
+baum13 [ textured ];
+baum13_Texture res/textures/baum13;
+baum13_Background true;
+baum13_passability jumpable;
+baum13_Rgba [ 85 100 155 255 ];
+
+baum14 [ textured ];
+baum14_Texture res/textures/baum14;
+baum14_Background true;
+baum14_passability jumpable;
+
+wallugla1 [ textured ];
+wallugla1_Texture res/textures/wall_unten_gleicha1;
+wallugla1_Background true;
+wallugla1_passability unpassable;
+wallugla1_Rgba [ 98 96 98 255];
+
+wallugla2 [ textured ];
+wallugla2_Texture res/textures/wall_unten_gleicha2;
+wallugla2_Background true;
+wallugla2_passability unpassable;
+wallugla2_Rgba [ 98 96 98 255];
+
+wallugla3 [ textured ];
+wallugla3_Texture res/textures/wall_unten_gleicha3;
+wallugla3_Background true;
+wallugla3_passability unpassable;
+wallugla3_Rgba [ 98 96 98 255];
+
+wallugla4 [ textured ];
+wallugla4_Texture res/textures/wall_unten_gleicha4;
+wallugla4_Background true;
+wallugla4_passability unpassable;
+wallugla4_Rgba [ 98 96 98 255];
+
+wallugla5 [ textured ];
+wallugla5_Texture res/textures/wall_unten_gleicha5;
+wallugla5_Background true;
+wallugla5_passability unpassable;
+wallugla5_Rgba [ 98 96 98 255];
+
+walluglb1 [ textured ];
+walluglb1_Texture res/textures/wall_unten_gleichb1;
+walluglb1_Background true;
+walluglb1_passability unpassable;
+walluglb1_Rgba [ 98 96 98 255];
+
+walluglb2 [ textured ];
+walluglb2_Texture res/textures/wall_unten_gleichb2;
+walluglb2_Background true;
+walluglb2_passability unpassable;
+walluglb2_Rgba [ 98 96 98 255];
+
+walluglb3 [ textured ];
+walluglb3_Texture res/textures/wall_unten_gleichb3;
+walluglb3_Background true;
+walluglb3_passability unpassable;
+walluglb3_Rgba [ 98 96 98 255];
+
+walluglb4 [ textured ];
+walluglb4_Texture res/textures/wall_unten_gleichb4;
+walluglb4_Background true;
+walluglb4_passability unpassable;
+walluglb4_Rgba [ 98 96 98 255];
+
+walluglb5 [ textured ];
+walluglb5_Texture res/textures/wall_unten_gleichb5;
+walluglb5_Background true;
+walluglb5_passability unpassable;
+walluglb5_Rgba [ 98 96 98 255];
+
+wallugra1 [ textured ];
+wallugra1_Texture res/textures/wall_unten_groessera1;
+wallugra1_Background true;
+wallugra1_passability unpassable;
+wallugra1_Rgba [ 98 96 98 255];
+
+wallugra2 [ textured ];
+wallugra2_Texture res/textures/wall_unten_groessera2;
+wallugra2_Background true;
+wallugra2_passability unpassable;
+wallugra2_Rgba [ 98 96 98 255];
+
+wallugra3 [ textured ];
+wallugra3_Texture res/textures/wall_unten_groessera3;
+wallugra3_Background true;
+wallugra3_passability unpassable;
+wallugra3_Rgba [ 98 96 98 255];
+
+wallugra4 [ textured ];
+wallugra4_Texture res/textures/wall_unten_groessera4;
+wallugra4_Background true;
+wallugra4_passability unpassable;
+wallugra4_Rgba [ 98 96 98 255];
+
+wallugra5 [ textured ];
+wallugra5_Texture res/textures/wall_unten_groessera5;
+wallugra5_Background true;
+wallugra5_passability unpassable;
+wallugra5_Rgba [ 98 96 98 255];
+
+wallugrb1 [ textured ];
+wallugrb1_Texture res/textures/wall_unten_groesserb1;
+wallugrb1_Background true;
+wallugrb1_passability unpassable;
+wallugrb1_Rgba [ 98 96 98 255];
+
+wallugrb2 [ textured ];
+wallugrb2_Texture res/textures/wall_unten_groesserb2;
+wallugrb2_Background true;
+wallugrb2_passability unpassable;
+wallugrb2_Rgba [ 98 96 98 255];
+
+wallugrb3 [ textured ];
+wallugrb3_Texture res/textures/wall_unten_groesserb3;
+wallugrb3_Background true;
+wallugrb3_passability unpassable;
+wallugrb3_Rgba [ 98 96 98 255];
+
+wallugrb4 [ textured ];
+wallugrb4_Texture res/textures/wall_unten_groesserb4;
+wallugrb4_Background true;
+wallugrb4_passability unpassable;
+wallugrb4_Rgba [ 98 96 98 255];
+
+wallugrb5 [ textured ];
+wallugrb5_Texture res/textures/wall_unten_groesserb5;
+wallugrb5_Background true;
+wallugrb5_passability unpassable;
+wallugrb5_Rgba [ 98 96 98 255];
+
+wallukla1 [ textured ];
+wallukla1_Texture res/textures/wall_unten_kleinera1;
+wallukla1_Background true;
+wallukla1_passability unpassable;
+wallukla1_Rgba [ 98 96 98 255];
+
+wallukla2 [ textured ];
+wallukla2_Texture res/textures/wall_unten_kleinera2;
+wallukla2_Background true;
+wallukla2_passability unpassable;
+wallukla2_Rgba [ 98 96 98 255];
+
+wallukla3 [ textured ];
+wallukla3_Texture res/textures/wall_unten_kleinera3;
+wallukla3_Background true;
+wallukla3_passability unpassable;
+wallukla3_Rgba [ 98 96 98 255];
+
+wallukla4 [ textured ];
+wallukla4_Texture res/textures/wall_unten_kleinera4;
+wallukla4_Background true;
+wallukla4_passability unpassable;
+wallukla4_Rgba [ 98 96 98 255];
+
+wallukla5 [ textured ];
+wallukla5_Texture res/textures/wall_unten_kleinera5;
+wallukla5_Background true;
+wallukla5_passability unpassable;
+wallukla5_Rgba [ 98 96 98 255];
+
+walluklb1 [ textured ];
+walluklb1_Texture res/textures/wall_unten_kleinerb1;
+walluklb1_Background true;
+walluklb1_passability unpassable;
+walluklb1_Rgba [ 98 96 98 255];
+
+walluklb2 [ textured ];
+walluklb2_Texture res/textures/wall_unten_kleinerb2;
+walluklb2_Background true;
+walluklb2_passability unpassable;
+walluklb2_Rgba [ 98 96 98 255];
+
+walluklb3 [ textured ];
+walluklb3_Texture res/textures/wall_unten_kleinerb3;
+walluklb3_Background true;
+walluklb3_passability unpassable;
+walluklb3_Rgba [ 98 96 98 255];
+
+walluklb4 [ textured ];
+walluklb4_Texture res/textures/wall_unten_kleinerb4;
+walluklb4_Background true;
+walluklb4_passability unpassable;
+walluklb4_Rgba [ 98 96 98 255];
+
+walluklb5 [ textured ];
+walluklb5_Texture res/textures/wall_unten_kleinerb5;
+walluklb5_Background true;
+walluklb5_passability unpassable;
+walluklb5_Rgba [ 98 96 98 255];
+
+walluklc1 [ textured ];
+walluklc1_Texture res/textures/wall_unten_kleinerc1;
+walluklc1_Background true;
+walluklc1_passability unpassable;
+walluklc1_Rgba [ 98 96 98 255];
+
+walluklc2 [ textured ];
+walluklc2_Texture res/textures/wall_unten_kleinerc2;
+walluklc2_Background true;
+walluklc2_passability unpassable;
+walluklc2_Rgba [ 98 96 98 255];
+
+walluklc3 [ textured ];
+walluklc3_Texture res/textures/wall_unten_kleinerc3;
+walluklc3_Background true;
+walluklc3_passability unpassable;
+walluklc3_Rgba [ 98 96 98 255];
+
+wallukld1 [ textured ];
+wallukld1_Texture res/textures/wall_unten_kleinerd1;
+wallukld1_Background true;
+wallukld1_passability unpassable;
+wallukld1_Rgba [ 98 96 98 255];
+
+wallukld2 [ textured ];
+wallukld2_Texture res/textures/wall_unten_kleinerd2;
+wallukld2_Background true;
+wallukld2_passability unpassable;
+wallukld2_Rgba [ 98 96 98 255];
+
+
+wallukld3 [ textured ];
+wallukld3_Texture res/textures/wall_unten_kleinerd3;
+wallukld3_Background true;
+wallukld3_passability unpassable;
+wallukld3_Rgba [ 98 96 98 255];
+
+
+wallogla1 [ textured ];
+wallogla1_Texture res/textures/wall_oben_gleicha1;
+wallogla1_Background true;
+wallogla1_passability unpassable;
+wallogla1_Rgba [ 98 96 98 255];
+
+wallogla2 [ textured ];
+wallogla2_Texture res/textures/wall_oben_gleicha2;
+wallogla2_Background true;
+wallogla2_passability unpassable;
+wallogla2_Rgba [ 98 96 98 255];
+
+wallogla3 [ textured ];
+wallogla3_Texture res/textures/wall_oben_gleicha3;
+wallogla3_Background true;
+wallogla3_passability unpassable;
+wallogla3_Rgba [ 98 96 98 255];
+
+wallogla4 [ textured ];
+wallogla4_Texture res/textures/wall_oben_gleicha4;
+wallogla4_Background true;
+wallogla4_passability unpassable;
+wallogla4_Rgba [ 98 96 98 255];
+
+wallogla5 [ textured ];
+wallogla5_Texture res/textures/wall_oben_gleicha5;
+wallogla5_Background true;
+wallogla5_passability unpassable;
+wallogla5_Rgba [ 98 96 98 255];
+
+wallogla6 [ textured ];
+wallogla6_Texture res/textures/wall_oben_gleicha6;
+wallogla6_Background true;
+wallogla6_passability unpassable;
+wallogla6_Rgba [ 98 96 98 255];
+
+walloglb1 [ textured ];
+walloglb1_Texture res/textures/wall_oben_gleichb1;
+walloglb1_Background true;
+walloglb1_passability unpassable;
+walloglb1_Rgba [ 98 96 98 255];
+
+walloglb2 [ textured ];
+walloglb2_Texture res/textures/wall_oben_gleichb2;
+walloglb2_Background true;
+walloglb2_passability unpassable;
+walloglb2_Rgba [ 98 96 98 255];
+
+walloglb3 [ textured ];
+walloglb3_Texture res/textures/wall_oben_gleichb3;
+walloglb3_Background true;
+walloglb3_passability unpassable;
+walloglb3_Rgba [ 98 96 98 255];
+
+walloglb4 [ textured ];
+walloglb4_Texture res/textures/wall_oben_gleichb4;
+walloglb4_Background true;
+walloglb4_passability unpassable;
+walloglb4_Rgba [ 98 96 98 255];
+
+walloglb5 [ textured ];
+walloglb5_Texture res/textures/wall_oben_gleichb5;
+walloglb5_Background true;
+walloglb5_passability unpassable;
+walloglb5_Rgba [ 98 96 98 255];
+
+walloglb6 [ textured ];
+walloglb6_Texture res/textures/wall_oben_gleichb6;
+walloglb6_Background true;
+walloglb6_passability unpassable;
+walloglb6_Rgba [ 98 96 98 255];
+
+wallolgrrkl1 [ textured ];
+wallolgrrkl1_Texture res/textures/wall_oben_linksgroesser_rechtskleiner1;
+wallolgrrkl1_Background true;
+wallolgrrkl1_passability unpassable;
+wallolgrrkl1_Rgba [ 98 96 98 255];
+
+wallolgrrkl2 [ textured ];
+wallolgrrkl2_Texture res/textures/wall_oben_linksgroesser_rechtskleiner2;
+wallolgrrkl2_Background true;
+wallolgrrkl2_passability unpassable;
+wallolgrrkl2_Rgba [ 98 96 98 255];
+
+wallolgrrkl3 [ textured ];
+wallolgrrkl3_Texture res/textures/wall_oben_linksgroesser_rechtskleiner3;
+wallolgrrkl3_Background true;
+wallolgrrkl3_passability unpassable;
+wallolgrrkl3_Rgba [ 98 96 98 255];
+
+wallolgrrkl4 [ textured ];
+wallolgrrkl4_Texture res/textures/wall_oben_linksgroesser_rechtskleiner4;
+wallolgrrkl4_Background true;
+wallolgrrkl4_passability unpassable;
+wallolgrrkl4_Rgba [ 98 96 98 255];
+
+wallolgrrkl5 [ textured ];
+wallolgrrkl5_Texture res/textures/wall_oben_linksgroesser_rechtskleiner5;
+wallolgrrkl5_Background true;
+wallolgrrkl5_passability unpassable;
+wallolgrrkl5_Rgba [ 98 96 98 255];
+
+wallolgrrkl6 [ textured ];
+wallolgrrkl6_Texture res/textures/wall_oben_linksgroesser_rechtskleiner6;
+wallolgrrkl6_Background true;
+wallolgrrkl6_passability unpassable;
+wallolgrrkl6_Rgba [ 98 96 98 255];
+
+wallolklrgr1 [ textured ];
+wallolklrgr1_Texture res/textures/wall_oben_linkskleiner_rechtsgroesser1;
+wallolklrgr1_Background true;
+wallolklrgr1_passability unpassable;
+wallolklrgr1_Rgba [ 98 96 98 255];
+
+wallolklrgr2 [ textured ];
+wallolklrgr2_Texture res/textures/wall_oben_linkskleiner_rechtsgroesser2;
+wallolklrgr2_Background true;
+wallolklrgr2_passability unpassable;
+wallolklrgr2_Rgba [ 98 96 98 255];
+
+wallolklrgr3 [ textured ];
+wallolklrgr3_Texture res/textures/wall_oben_linkskleiner_rechtsgroesser3;
+wallolklrgr3_Background true;
+wallolklrgr3_passability unpassable;
+wallolklrgr3_Rgba [ 98 96 98 255];
+
+wallolklrgr4 [ textured ];
+wallolklrgr4_Texture res/textures/wall_oben_linkskleiner_rechtsgroesser4;
+wallolklrgr4_Background true;
+wallolklrgr4_passability unpassable;
+wallolklrgr4_Rgba [ 98 96 98 255];
+
+wallolklrgr5 [ textured ];
+wallolklrgr5_Texture res/textures/wall_oben_linkskleiner_rechtsgroesser5;
+wallolklrgr5_Background true;
+wallolklrgr5_passability unpassable;
+wallolklrgr5_Rgba [ 98 96 98 255];
+
+wallolklrgr6 [ textured ];
+wallolklrgr6_Texture res/textures/wall_oben_linkskleiner_rechtsgroesser6;
+wallolklrgr6_Background true;
+wallolklrgr6_passability unpassable;
+wallolklrgr6_Rgba [ 98 96 98 255];
+
+walloleck1 [ textured ];
+walloleck1_Texture res/textures/wall_oben_links_eck1;
+walloleck1_Background true;
+walloleck1_passability unpassable;
+walloleck1_Rgba [ 98 96 98 255];
+
+walloleck2 [ textured ];
+walloleck2_Texture res/textures/wall_oben_links_eck2;
+walloleck2_Background true;
+walloleck2_passability unpassable;
+walloleck2_Rgba [ 98 96 98 255];
+
+walloleck3 [ textured ];
+walloleck3_Texture res/textures/wall_oben_links_eck3;
+walloleck3_Background true;
+walloleck3_passability unpassable;
+walloleck3_Rgba [ 98 96 98 255];
+
+walloleck4 [ textured ];
+walloleck4_Texture res/textures/wall_oben_links_eck4;
+walloleck4_Background true;
+walloleck4_passability unpassable;
+walloleck4_Rgba [ 98 96 98 255];
+
+walloleck5 [ textured ];
+walloleck5_Texture res/textures/wall_oben_links_eck5;
+walloleck5_Background true;
+walloleck5_passability unpassable;
+walloleck5_Rgba [ 98 96 98 255];
+
+walloreck1 [ textured ];
+walloreck1_Texture res/textures/wall_oben_rechts_eck1;
+walloreck1_Background true;
+walloreck1_passability unpassable;
+walloleck1_Rgba [ 98 96 98 255];
+
+walloreck2 [ textured ];
+walloreck2_Texture res/textures/wall_oben_rechts_eck2;
+walloreck2_Background true;
+walloreck2_passability unpassable;
+walloleck2_Rgba [ 98 96 98 255];
+
+walloreck3 [ textured ];
+walloreck3_Texture res/textures/wall_oben_rechts_eck3;
+walloreck3_Background true;
+walloreck3_passability unpassable;
+walloleck3_Rgba [ 98 96 98 255];
+
+walloreck4 [ textured ];
+walloreck4_Texture res/textures/wall_oben_rechts_eck4;
+walloreck4_Background true;
+walloreck4_passability unpassable;
+walloleck4_Rgba [ 98 96 98 255];
+
+walloreck5 [ textured ];
+walloreck5_Texture res/textures/wall_oben_rechts_eck5;
+walloreck5_Background true;
+walloreck5_passability unpassable;
+walloleck5_Rgba [ 98 96 98 255];
+
+pillar1 [ textured ];
+pillar1_Texture res/textures/wall_pillar1;
+pillar1_Background true;
+pillar1_passability unpassable;
+pillar1_Rgba [ 98 96 98 255];
+
+pillar2 [ textured ];
+pillar2_Texture res/textures/wall_pillar2;
+pillar2_Background true;
+pillar2_passability unpassable;
+pillar2_Rgba [ 98 96 98 255];
+
+blackField [ textured ];
+blackField_Texture res/textures/schwarz;
+blackField_Background true;
+blackField_passability unpassable;
+blackField_Rgba [ 255 255 255 255];
+
+pillarLeft2 [ textured ];
+pillarLeft2_Texture res/textures/wall_left_halfpillar2;
+pillarLeft2_Background true;
+pillarLeft2_passability unpassable;
+pillarLeft2_Rgba [ 98 96 98 255];
+
+pillarLeft1 [ textured ];
+pillarLeft1_Texture res/textures/wall_left_halfpillar1;
+pillarLeft1_Background true;
+pillarLeft1_passability unpassable;
+pillarLeft1_Rgba [ 98 96 98 255];
+
+blatt1 [ textured ];
+blatt1_Texture res/textures/blatt1;
+blatt1_Background true;
+blatt1_passability walkable;
+
+blatt2 [ textured ];
+blatt2_Texture res/textures/blatt2;
+blatt2_Background true;
+blatt2_passability walkable;
+
+blatt3 [ textured ];
+blatt3_Texture res/textures/blatt3;
+blatt3_Background true;
+blatt3_passability walkable;
+
+sapling [ textured ];
+sapling_Texture res/textures/sapling;
+sapling_Background true;
+sapling_passability walkable;

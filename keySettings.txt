@@ -1,0 +1,23 @@
+
+keyShutdown 27;
+kexReloadScripts 82;
+keyMoveCamUp 38;
+keyMoveCamDown 40;
+keyMoveCamRight 39;
+keyMoveCamLeft 37;
+keyMoveCamIn 45;
+keyMoveCamOut 521;
+keySelectNext 78;
+keySelectPrev 80;
+keyIncLayer 76;
+keyDecLayer 75;
+keyIncFill 70;
+keyDecFill 71;
+keyUnselect 85;
+keyClear 67;
+keyClearLayer 86;
+keyApply 65;
+keySave 83;
+keyLoad 88;
+keyTileData 84;
+keyHighlightData 72;

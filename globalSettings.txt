@@ -1,0 +1,18 @@
+
+scriptFiles [ keySettings.txt tileSettings.txt exampleTiles.txt markusTiles.txt mapSettings.txt robinTiles.txt creatures.txt	];
+
+camSpeed 1.5f;
+zoomSpeed 10.0f;
+mouseWheelSpeed 0.5f;
+resolutionX 800;
+resolutionY 600;
+fpsCap 120;
+tpsCap 120;
+windowed true;
+
+mouseWidth .02f;
+mouseHeight .02f;
+
+dispFps true;
+dispMousePos true;
+

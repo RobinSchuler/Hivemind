@@ -1,0 +1,40 @@
+
++ tilesList <exampleTiles>;
+
+<exampleTiles> [ folder
+	cursorTile 
+	blueCircle 
+    redSquare 
+];
+
+
+blueCircle [ circle ];
+blueCircle_Rgba [ 0 0 255 255 ];
+blueCircle_Data [ this is some string data to store ];
+blueCircle_passability jumpable;
+
+redSquare [ square ];
+redSquare_Rgba [ 255 0 0 255 ];
+redSquare_passability flyable;
+
+cursorTile [ textured ];
+cursorTile_Texture ../res/textures/cursor;
+
+
+
+
++ <exampleTiles> multiTile;
+
+multiTile [ multiple 
+	redSquare	redSquare	redSquare
+	redSquare	blueCircle	null 		redSquare	
+	null		null
+];
+multiTile_Width 3;
+
++ <exampleTiles> multiLayer;
+
+multiLayer [ layerd
+	redSquare
+	blueCircle
+];

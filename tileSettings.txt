@@ -1,0 +1,12 @@
+tileExtensions [ Data Rgba Texture Width Background NumFrames AnimLength passability ];
+
+tilesList [
+	background 
+	spawn 
+];
+
+mapSettingsList [ mapName mapAuthor losetimer ];
+
+mapName unnamed;
+mapAuthor Markus;
+
